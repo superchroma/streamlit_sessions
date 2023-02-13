@@ -16,6 +16,7 @@ today = st.date_input(f"Date: {datetime.now()}")
 # create title
 st.title("ESSEXLab Session Tracking")
 
+num_participants = st.date_input(f"Enter number of participants: {num_participants}")
 
 
 def save_data(data):
@@ -33,7 +34,7 @@ def main():
     data = []
     session_date = datetime.now().strftime("%Y-%m-%d")
 
-    for i in range(30):
+    for i in range(num_participants):
         participant_name = st.text_input(f"Enter Participant Name {i+1}: ")
         sona_id = st.text_input(f"Enter SONA ID {i+1}: ")
         start_time = st.text_input(f"Enter Start Time {i+1}: ")
