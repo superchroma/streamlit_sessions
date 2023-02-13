@@ -16,7 +16,7 @@ today = st.date_input(f"Date: {datetime.now()}")
 # create title
 st.title("ESSEXLab Session Tracking")
 
-num_participants = st.text_input(f"Enter number of participants: {num_participants}")
+num_participants = st.text_input("Enter number of participants: ")
 
 
 def save_data(data):
