@@ -24,8 +24,6 @@ def save_data(data):
         writer.writerow(data)
 
 def main():
-    st.title("ESSEXLab Study")
-
     study_names = ['study a', 'study b', 'study c']
     selected_study = st.selectbox("Select study name:", study_names)
 
