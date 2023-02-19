@@ -25,33 +25,33 @@ def save_data(data):
         writer.writerow(data)
 
 def main():
-    study_names = ["HUGHES_KHAN_MENGEL - MENGEL1219A"
-            "MENGEL1219B"
-            "Public Opinion Study (VANCOPPEN-1121)"
-            "Interactions of first and second language (SOTOGARCIA-0122) pilot"
-            "Buy Now, Pay Later (BROOKS-0422)"
-            "Language attitudes and dialect identification in England (COLE-0422)"
-            "Simple Voting - DIANAT-0222"
-            "Voting Experiment (DIANAT-0222)"
-            "ENGLISH MONOLINGUALS: Interactions of first and second language (SOTOGARCIA-0122)"
-            "ENGLISH-SPANISH BILINGUALS: Interactions of first and second language (SOTOGARCIA-0122)"
-            "SPANISH HERITAGE SPEAKERS: Interactions of first and second language (SOTOGARCIA-0122)"
-            "Social processing of naturalistic social interactions - DAUGHTERS-0422"
-            "ENGLISH MONOLINGUALS (2-part): Interactions of first and second language (SOTOGARCIA-0122) - Part 1"
-            "ENGLISH MONOLINGUALS (2-part): Interactions of first and second language (SOTOGARCIA-0122) - Part 2"
-            "SPANISH NATIVE SPEAKERS 2-part: Interactions of first and second language (SOTOGARCIA-0122) - Part 1"
-            "SPANISH NATIVE SPEAKERS 2-part: Interactions of first and second language (SOTOGARCIA-0122) - Part 2"
-            "Does the Beauty beat the Beast? (FULLARD-0122O)"
-            "Why copy others' financial decisions? (FREER-0522)"
-            "DIANAT-0522 - Conspicuous Consumption in the Lab"
-            "Listening and feeling together (CHIU-0622)"
-            "Decision Making Study (MENGEL-0722)"
-            "BHALOTRA-0422EX - The impact of leaders on team performance"
-            "Intake survey for 2-hour lab study!"
-            "Invitation only: Emotional and physiological reactions to music, speech and sounds (CHIU-0622)"
-            "Social Judgement (VANDOLDER-0622)"
-            "Invitation only: Emotional and physiological reactions to music and sounds (CHIU-0622)"
-            "Meditation and mood visualisation study: emotional andphysiological reactions to speech  (CHIU-0622)"
+    study_names = ["HUGHES_KHAN_MENGEL - MENGEL1219A",
+            "MENGEL1219B",
+            "Public Opinion Study (VANCOPPEN-1121)",
+            "Interactions of first and second language (SOTOGARCIA-0122) pilot",
+            "Buy Now, Pay Later (BROOKS-0422)",
+            "Language attitudes and dialect identification in England (COLE-0422)",
+            "Simple Voting - DIANAT-0222",
+            "Voting Experiment (DIANAT-0222)",
+            "ENGLISH MONOLINGUALS: Interactions of first and second language (SOTOGARCIA-0122)",
+            "ENGLISH-SPANISH BILINGUALS: Interactions of first and second language (SOTOGARCIA-0122)",
+            "SPANISH HERITAGE SPEAKERS: Interactions of first and second language (SOTOGARCIA-0122)",
+            "Social processing of naturalistic social interactions - DAUGHTERS-0422",
+            "ENGLISH MONOLINGUALS (2-part): Interactions of first and second language (SOTOGARCIA-0122) - Part 1",
+            "ENGLISH MONOLINGUALS (2-part): Interactions of first and second language (SOTOGARCIA-0122) - Part 2",
+            "SPANISH NATIVE SPEAKERS 2-part: Interactions of first and second language (SOTOGARCIA-0122) - Part 1",
+            "SPANISH NATIVE SPEAKERS 2-part: Interactions of first and second language (SOTOGARCIA-0122) - Part 2",
+            "Does the Beauty beat the Beast? (FULLARD-0122O)",
+            "Why copy others' financial decisions? (FREER-0522)",
+            "DIANAT-0522 - Conspicuous Consumption in the Lab",
+            "Listening and feeling together (CHIU-0622)",
+            "Decision Making Study (MENGEL-0722)",
+            "BHALOTRA-0422EX - The impact of leaders on team performance",
+            "Intake survey for 2-hour lab study!",
+            "Invitation only: Emotional and physiological reactions to music, speech and sounds (CHIU-0622)",
+            "Social Judgement (VANDOLDER-0622)",
+            "Invitation only: Emotional and physiological reactions to music and sounds (CHIU-0622)",
+            "Meditation and mood visualisation study: emotional andphysiological reactions to speech  (CHIU-0622)",
             "NAVYTE-1022 Affective Vicarious Touch"]
     selected_study = st.selectbox("Select study name:", study_names)
 
